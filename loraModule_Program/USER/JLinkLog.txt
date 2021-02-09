@@ -1,0 +1,30 @@
+T183C 008:194.525   SEGGER J-Link V6.70e Log File
+T183C 008:194.654   DLL Compiled: Apr 17 2020 17:55:05
+T183C 008:194.661   Logging started @ 2020-08-06 13:50
+T183C 008:194.670 JLINK_SetWarnOutHandler(...)
+T183C 008:194.677 - 0.010ms
+T183C 008:194.687 JLINK_OpenEx(...)
+T183C 008:195.633   
+  ***** Error: 
+T183C 008:195.646   Cannot connect to J-Link.
+T183C 008:240.577 - 45.902ms returns "Cannot connect to J-Link."
+T183C 008:240.812 
+  ***** 
+T183C 008:240.825 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T183C 009:851.136 JLINK_IsOpen()
+T183C 009:851.158 - 0.025ms returns 0x00
+T183C 009:851.167 JLINK_EMU_SelectByUSBSN(SerialNo = 0)
+T183C 009:851.856 - 0.699ms returns 0xFFFFFFFF
+T183C 009:851.874 JLINK_EnableLog(...)
+T183C 009:851.880 - 0.008ms
+T183C 009:851.889 JLINK_SetWarnOutHandler(...)
+T183C 009:851.895 - 0.008ms
+T183C 009:851.902 JLINK_OpenEx(...)
+T183C 009:878.195 - 26.308ms returns "Failed to open DLL"
+T183C 009:878.435 
+  ***** 
+T183C 009:878.447 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T183C 012:113.892 JLINK_Close()
+T183C 012:114.167 - 0.280ms
+T183C 012:114.176   
+T183C 012:114.182   Closed
